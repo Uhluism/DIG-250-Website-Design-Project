@@ -1,0 +1,83 @@
+/* styles.css */
+/* Resetting default margins and padding -Neida  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color for the page and choose the fonts -Neida */
+body {
+    background-color: #2E3D36; /* Background color for the page */
+    color: #E8E4D9; /* Text color for the page */
+    font-family: 'Telegraf', sans-serif; /* Use Telegraf font */
+    font-size: medium;
+}
+
+/* Styling the navigation - Neida */
+nav {
+    background-color: #2E3D36; /* Background color for the navigation */
+    width: calc(100% - 620px - 40px); /* Set the width of the navigation */
+    border-top: 3px solid #E8E4D9; /* Add a border line above the navigation */
+    border-bottom: 2px solid #E8E4D9; /* Add a border line at the bottom of navigation */
+    text-align: center; /* Align the text in the center */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top:15px; /* Moved the border 15px so it's not at the very top of the page */
+    margin-left: 30px;
+    margin-right: 0px;
+    float: left;
+}
+
+/* Styling the list items -Neida */
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 10px; /* Add padding to each list item */
+}
+
+/* Styling the links -Neida */
+nav ul li a {
+    color: #E8E4D9; /* Color */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Display links as block elements */
+}
+
+/* Hover effect on links - Neida */
+nav ul li a:hover {
+    background-color: #E8E4D9; /* Background color on hover */
+}
+
+/* Styling the Logo -Neida */
+#Logo {
+    display: block;
+    margin: 0 auto;
+    width: 850px;
+    margin-top: -165px;
+    float: left;
+    margin-left: -155px;
+    position: relative;
+}
+
+/*Styling the Slogan (I couldn't figure out how to place the slogan under the Logo) -Neida
+#Slogan{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; 
+} */
+/* Styling Picture 1 -Neida */
+#Picture1 {
+    width:600px;
+    height: fit-content;
+    float: right;
+    margin-right: 0px;
+    margin-top: -75px;
+}
